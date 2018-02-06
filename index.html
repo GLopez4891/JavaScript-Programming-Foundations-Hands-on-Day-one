@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Grading System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="middle">Grading Assignment</h1>
+    <form id="gradeInput" align="middle">
+        Enter Grade 1:
+        <input id="grade1" type="number" min="0" max="100"> Enter Grade 2:
+        <input id="grade2"  type="number" min="0" max="100"> Enter Grade 3:
+        <input id="grade3"  type="number" min="0" max="100">
+        <button type="submit" onclick="event.preventDefault(), calculateGrade()">Get Grades</button>
+
+        <div id="finalGrade" align="middle"></div>
+        <p>Grade1:<span id="displayGrade1"></span></p>
+        <p>Grade2:<span id="displayGrade2"></span></p>
+        <p>Grade3:<span id="displayGrade3"></span></p>
+        <p>Average:<span id="average"></span></p>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>

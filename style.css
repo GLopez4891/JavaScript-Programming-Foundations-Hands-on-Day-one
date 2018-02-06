@@ -1,0 +1,18 @@
+h1 {
+    color: brown;
+}
+#displayGrade1 {
+    color: blue;
+}
+#displayGrade2 {
+color: blueviolet;
+}
+#displayGrade3 {
+    color: cornflowerblue;
+}
+#average {
+    color: darkblue;
+}
+body {
+    background-color: darkcyan;
+}
